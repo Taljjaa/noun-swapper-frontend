@@ -6,11 +6,14 @@ Beat Poems is a program designed to liven up poems or text by identifying nouns,
 
 ## Installation
 
-After you've followed the [backend instructions](https://github.com/mattgahrns/noun-swapper-backend)
+After you've followed the [backend instructions](https://github.com/Taljjaa/noun-swapper-backend)
 
 cd into the proper frontend directory and open the index.html in your favorite browser.
 
 Now you can enjoy some fun slam poetry!
+
+## Demo 
+Check out my [demo](https://youtu.be/PHizx_UMSUM) on Youtube
 
 ## Contributing
 
