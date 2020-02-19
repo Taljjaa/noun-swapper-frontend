@@ -6,15 +6,15 @@
       <script src="https://code.responsivevoice.org/responsivevoice.js?key=uS7jrDEI"></script>
       <script src="index.js"></script>
       <script src="rita-full.js"></script>
-      <link rel="stylesheet" href="styles.css">
+      <link rel="stylesheet" href="styles.css" />
    </header>
    <body>
       <div id="noScroll">
-         <div id=titleHeader>
-               <h1 id="headTitle">Krazy Poems</h1>
-                  <button id="homeButton" class="navButton">Home</button>
-                  <button id="createPoemButton" class="navButton">Create Poem</button>
-               <img src="images/bongo-cat-no-bg.png" id="bongocat">
+         <div id="titleHeader">
+            <h1 id="headTitle">Beat Poems</h1>
+            <button id="homeButton" class="navButton">Home</button>
+            <button id="createPoemButton" class="navButton">Create Poem</button>
+            <img src="images/bongo-cat-no-bg.png" id="bongocat" />
          </div>
          <div class="readOptions">
             <div class="labelGroupings">
@@ -23,14 +23,17 @@
             </div>
             <div class="labelGroupings">
                <label class="dropdownLabels">Sound effects: </label>
-               <div id="bongoSelect"><select id="bongoDropdown">
-                  <option value="false">Regular</option>
-                  <option value="true">&#x1F92A; Krazy Bongo-fied &#x1F918;</option>
-               </select>
+               <div id="bongoSelect">
+                  <select id="bongoDropdown">
+                     <option value="false">Regular</option>
+                     <option value="true">Bongo-fied &#x1F918;</option>
+                  </select>
                </div>
             </div>
          </div>
-         <button id="stopSoundButton" class="navButton">&#x1F92B; Stop Sound &#x1F507;</button>
+         <button id="stopSoundButton" class="navButton">
+            &#x1F92B; Stop Sound &#x1F507;
+         </button>
       </div>
       <div id="pageContent"></div>
       <audio id="start-bongos">

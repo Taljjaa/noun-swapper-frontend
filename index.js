@@ -16,7 +16,7 @@ const swapper = new NounSwapper();
 
 function fetchPoems() {
    const div = createPoemsDiv();
-   fetch('http://localhost:3000/poems')
+   fetch('https://noun-swapper-api.herokuapp.com/poems')
       .then(res => res.json())
       .then(json => {
          for (let i = 0; i < json.length; i++) {
@@ -96,7 +96,7 @@ function createInput(labelText, poemForm, id, type) {
 function postPoem(event) {
    const div = createPoemsDiv();
    event.preventDefault();
-   fetch('http://localhost:3000/poems', {
+   fetch('https://noun-swapper-api.herokuapp.com/poems', {
       method: 'POST',
       headers: {
          'Content-Type': 'application/json',
@@ -194,7 +194,7 @@ function redoPoem(poem) {
    const modifiedPoem = swapper.replace(poem.innerText, isChecked());
    const id = poem.id;
    const div = createPoemsDiv();
-   fetch(`http://localhost:3000/poems/${id}`, {
+   fetch(`https://noun-swapper-api.herokuapp.com/poems/${id}`, {
       method: 'PATCH',
       headers: {
          'Content-Type': 'application/json',
